@@ -1,4 +1,9 @@
-Smallest palindrome Given an integer N, find the smallest palindromic number of N digits that is divisible by 7. A palindromic number is one which remains the same when its digits are reversed. Function description Complete the function solve. This function takes the following parameter and returns the required answer: N: Represents the number of required digits in the palindrome Input format for custom testing Note: Use this input format if you are testing against custom input or writing code in a language where we don’t provide boilerplate code. The first line contains T, which represents the number of test cases. For each test case: The first line contains a single integer N denoting the value of N. Output format Print a single line containing the answer.
+Smallest palindrome Given an integer N, find the smallest palindromic number of N digits that is divisible by 7. 
+A palindromic number is one which remains the same when its digits are reversed. Function description Complete the function solve.
+This function takes the following parameter and returns the required answer: N: 
+Represents the number of required digits in the palindrome Input format for custom testing Note: 
+Use this input format if you are testing against custom input or writing code in a language where we don’t provide boilerplate code. 
+The first line contains T, which represents the number of test cases. For each test case: The first line contains a single integer N denoting the value of N. Output format Print a single line containing the answer.
 
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
