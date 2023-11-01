@@ -5,6 +5,10 @@ Represents the number of required digits in the palindrome Input format for cust
 Use this input format if you are testing against custom input or writing code in a language where we don’t provide boilerplate code. 
 The first line contains T, which represents the number of test cases. For each test case: The first line contains a single integer N denoting the value of N. Output format Print a single line containing the answer.
 
+
+
+
+
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
 
